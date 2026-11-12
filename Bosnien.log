@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.10.16)  12 NOV 2026 14:45
+This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.10.16)  12 NOV 2026 14:48
  restricted system commands enabled.
 **Bosnien.tex
 (./Bosnien.tex
@@ -524,21 +524,35 @@ File: bilder/wappen.png Graphic file (type png)
 <use bilder/wappen.png>
 Package luatex.def Info: bilder/wappen.png  used on input line 39.
 (luatex.def)             Requested size: 148.2019pt x 74.09805pt.
- [2<./bilder/wappen.png>] [3] (./Bosnien.aux)
+ [2<./bilder/wappen.png>]
+
+LaTeX Warning: Reference `eq:torquote' on page 3 undefined on input line 51.
+
+
+LaTeX Warning: Reference `eq:torquote' on page 3 undefined on input line 58.
+
+[3] [4] (./Bosnien.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 6627 strings out of 475604
+ 6630 strings out of 475604
  100000,953878 words of node,token memory allocated
- 535 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 13 attribute, 53 glue_spec
-, 7 attribute_list, 1 write nodes
-   avail lists: 2:361,3:97,4:9,5:290,6:24,7:4390,8:11,9:182,10:9,11:508
- 29423 multiletter control sequences out of 65536+600000
+ 547 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 17 attribute, 53 glue_spec
+, 9 attribute_list, 1 write nodes
+   avail lists: 2:430,3:101,4:9,5:290,6:24,7:4464,8:11,9:174,10:9,11:514
+ 29426 multiletter control sequences out of 65536+600000
  36 fonts using 2654263 bytes
  60i,7n,64p,518b,255s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Semin Sabanovic/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm
@@ -549,10 +563,11 @@ l/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><C:/Users/Semin
 lar.otf><C:/Users/Semin Sabanovic/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb><C:/Users/Semin Sabanovic/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Semin Sabanovic/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on Bosnien.pdf (3 pages, 64120 bytes).
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Semin Saban
+ovic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Bosnien.pdf (4 pages, 75602 bytes).
 
-PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 1048576)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
