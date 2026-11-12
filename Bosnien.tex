@@ -4,6 +4,10 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{literatur.bib}
 
 \title{Bosnien und Herzegowina sowie die Karriere von Edin D\v{z}eko}
 \author{Mini-Dokumentation (LaTeX-Abschlussübung)}
@@ -16,10 +20,10 @@
 \newpage
 
 \section{Einleitung}
-Bosnien und Herzegowina ist ein Staat in Südosteuropa auf der Balkanhalbinsel, der durch eine vielfältige Geschichte, beeindruckende Gebirgslandschaften und eine leidenschaftliche Sportkultur geprägt ist. Ziel dieser Mini-Dokumentation ist es, einen kompakten Überblick über das Land zu geben und anschließend die sportliche Laufbahn seines bekanntesten Fußballspielers, Edin D\v{z}eko, anhand von Kennzahlen darzustellen.
+Bosnien und Herzegowina ist ein Staat in Südosteuropa auf der Balkanhalbinsel, der durch eine vielfältige Geschichte, beeindruckende Gebirgslandschaften und eine leidenschaftliche Sportkultur geprägt ist \parencite{wiki_bih}. Ziel dieser Mini-Dokumentation ist es, einen kompakten Überblick über das Land zu geben und anschließend die sportliche Laufbahn seines bekanntesten Fußballspielers, Edin D\v{z}eko, anhand von Kennzahlen darzustellen.
 
 \subsection{Bosnien und Herzegowina im Überblick}
-Das Land erstreckt sich über eine Fläche von rund $51.197\,\text{km}^2$ und zählt etwa $3,14\,\text{Millionen}$ Einwohner. Die Hauptstadt ist Sarajevo. Politisch gliedert sich der Bundesstaat in die Föderation Bosnien und Herzegowina, die Republika Srpska sowie den Sonderverwaltungsbezirk Br\v{c}ko-Distrikt. Geografisch wird das Landesinnere vom Dinarischen Gebirge dominiert, während im Südwesten bei Neum ein rund $20\,\text{km}$ langer Zugang zum Adriatischen Meer besteht.
+Das Land erstreckt sich über eine Fläche von rund $51.197\,\text{km}^2$ und zählt etwa $3,14\,\text{Millionen}$ Einwohner \parencite{wiki_bih}. Die Hauptstadt ist Sarajevo. Politisch gliedert sich der Bundesstaat in die Föderation Bosnien und Herzegowina, die Republika Srpska sowie den Sonderverwaltungsbezirk Br\v{c}ko-Distrikt. Geografisch wird das Landesinnere vom Dinarischen Gebirge dominiert, während im Südwesten bei Neum ein rund $20\,\text{km}$ langer Zugang zum Adriatischen Meer besteht \parencite{kinderweltreise_bih}.
 
 Zu den wichtigsten Merkmalen des Landes zählen:
 \begin{itemize}
@@ -43,9 +47,9 @@ Zu den wichtigsten Merkmalen des Landes zählen:
 In Abbildung~\ref{fig:wappen} ist das historische Lilienwappen zu sehen, das nach der Unabhängigkeit im Jahr 1992 eingeführt wurde und bis heute als wichtiges kulturelles Symbol gilt.
 
 \subsection{Edin D\v{z}eko -- Rekordspieler und Stürmerstar}
-Edin D\v{z}eko (geboren am 17.~März 1986 in Sarajevo) gilt als der erfolgreichste Fußballspieler in der Geschichte Bosnien und Herzegowinas. Seine Profikarriere begann beim Heimatverein FK \v{Z}eljezni\v{c}ar Sarajevo. Über den tschechischen Klub FK Teplice wechselte er 2007 in die deutsche Bundesliga zum VfL Wolfsburg, wo er 2009 Deutscher Meister und 2010 Torschützenkönig wurde.
+Edin D\v{z}eko (geboren am 17.~März 1986 in Sarajevo) gilt als der erfolgreichste Fußballspieler in der Geschichte Bosnien und Herzegowinas \parencite{wiki_dzeko}. Seine Profikarriere begann beim Heimatverein FK \v{Z}eljezni\v{c}ar Sarajevo. Über den tschechischen Klub FK Teplice wechselte er 2007 in die deutsche Bundesliga zum VfL Wolfsburg, wo er 2009 Deutscher Meister und 2010 Torschützenkönig wurde.
 
-Es folgten internationale Top-Stationen bei Manchester City, der AS Rom, Inter Mailand, Fenerbah\c{c}e Istanbul und der AC Florenz, bevor er im Januar 2026 nach Deutschland zurückkehrte und sich dem FC Schalke 04 anschloss. In der bosnisch-herzegowinischen A-Nationalmannschaft absolvierte er zwischen 2007 und seinem Abschiedsspiel im Oktober 2026 insgesamt $152$ Länderspiele und erzielte dabei $73$ Tore, womit er sowohl Rekordspieler als auch Rekordtorschütze seines Landes ist.
+Es folgten internationale Top-Stationen bei Manchester City, der AS Rom, Inter Mailand, Fenerbah\c{c}e Istanbul und der AC Florenz, bevor er im Januar 2026 nach Deutschland zurückkehrte und sich dem FC Schalke 04 anschloss. In der bosnisch-herzegowinischen A-Nationalmannschaft absolvierte er zwischen 2007 und seinem Abschiedsspiel im Oktober 2026 insgesamt $152$ Länderspiele und erzielte dabei $73$ Tore, womit er sowohl Rekordspieler als auch Rekordtorschütze seines Landes ist \parencite{wiki_dzeko}.
 
 \section{Statistische Auswertung}
 Um die Torgefährlichkeit eines Stürmers objektiv zu bewerten, wird häufig die Torquote pro Spiel herangezogen. Sie berechnet sich gemäß Gleichung~\eqref{eq:torquote} aus dem Verhältnis der erzielten Tore $T$ zur Anzahl der absolvierten Spiele $S$:
@@ -75,5 +79,10 @@ Für D\v{z}ekos Gesamtbilanz in der Nationalmannschaft ($T = 73$, $S = 152$) erg
         \bottomrule
     \end{tabular}
 \end{table}
+
+\section{Fazit}
+Bosnien und Herzegowina verbindet kulturelle Vielfalt mit beeindruckender sportlicher Tradition. Edin D\v{z}eko prägte den Fußball seines Landes über fast zwei Jahrzehnte hinweg entscheidend und hinterließ sowohl in europäischen Topligen als auch als Rekordspieler und Rekordtorschütze der Nationalmannschaft bleibende Spuren.
+
+\printbibliography
 
 \end{document}
