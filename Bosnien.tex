@@ -1,6 +1,8 @@
 \documentclass[a4paper, 12pt]{article}
 \usepackage[ngerman]{babel}
 \usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{booktabs}
 \usepackage{amsmath}
 
 \title{Bosnien und Herzegowina sowie die Karriere von Edin D\v{z}eko}
@@ -26,9 +28,45 @@ Zu den wichtigsten Merkmalen des Landes zählen:
     \item \textbf{Kulturelles Erbe:} Eine Mischung aus osmanischen, österreichisch-ungarischen und südslawischen Einflüssen, sichtbar etwa an der berühmten Alten Brücke (\emph{Stari most}) in Mostar.
 \end{itemize}
 
+\begin{figure}[htbp]
+    \centering
+    \IfFileExists{bilder/wappen.png}{
+        \includegraphics[width=.38\textwidth]{bilder/wappen.png}
+        \caption{Historisches Wappen der Republik Bosnien und Herzegowina (1992--1998) mit den sechs goldenen Lilien (\emph{Ljiljani})}
+    }{
+        \fbox{\parbox[c][4cm][c]{.36\textwidth}{\centering Bilddatei\\\texttt{bilder/wappen.png}\\nicht gefunden}}
+        \caption{Wappenbild nicht verfügbar}
+    }
+    \label{fig:wappen}
+\end{figure}
+
+Das historische Lilienwappen wurde nach der Unabhängigkeit im Jahr 1992 eingeführt und gilt bis heute als wichtiges kulturelles Symbol.
+
 \subsection{Edin D\v{z}eko -- Rekordspieler und Stürmerstar}
 Edin D\v{z}eko (geboren am 17.~März 1986 in Sarajevo) gilt als der erfolgreichste Fußballspieler in der Geschichte Bosnien und Herzegowinas. Seine Profikarriere begann beim Heimatverein FK \v{Z}eljezni\v{c}ar Sarajevo. Über den tschechischen Klub FK Teplice wechselte er 2007 in die deutsche Bundesliga zum VfL Wolfsburg, wo er 2009 Deutscher Meister und 2010 Torschützenkönig wurde.
 
 Es folgten internationale Top-Stationen bei Manchester City, der AS Rom, Inter Mailand, Fenerbah\c{c}e Istanbul und der AC Florenz, bevor er im Januar 2026 nach Deutschland zurückkehrte und sich dem FC Schalke 04 anschloss. In der bosnisch-herzegowinischen A-Nationalmannschaft absolvierte er zwischen 2007 und seinem Abschiedsspiel im Oktober 2026 insgesamt $152$ Länderspiele und erzielte dabei $73$ Tore, womit er sowohl Rekordspieler als auch Rekordtorschütze seines Landes ist.
+
+\section{Statistische Auswertung}
+Tabelle~\ref{tab:vereine} fasst ausgewählte Stationen seiner Vereinskarriere im Ligabetrieb zusammen.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Ausgewählte Vereinsstationen von Edin D\v{z}eko (nur Ligaspiele, Stand: November 2026)}
+    \label{tab:vereine}
+    \begin{tabular}{lccc}
+        \toprule
+        Verein & Zeitraum & Ligaspiele & Ligatore \\
+        \midrule
+        VfL Wolfsburg & 2007--2010 & 111 & 66 \\
+        Manchester City & 2011--2015 & 130 & 50 \\
+        AS Rom & 2015--2021 & 199 & 85 \\
+        Inter Mailand & 2021--2023 & 69 & 22 \\
+        Fenerbah\c{c}e Istanbul & 2023--2025 & 71 & 35 \\
+        AC Florenz & 2025--2026 & 11 & 0 \\
+        FC Schalke 04 & seit 2026 & 18 & 6 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \end{document}
