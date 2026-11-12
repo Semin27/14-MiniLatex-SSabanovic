@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Bosnien und Herzegowina im Überblick}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Edin D\v {z}eko -- Rekordspieler und Stürmerstar}{2}{}%
